@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>PharmaT</title>
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- swiper js -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+
+<body class="">
+  <!-- header -->
+  <header class="p-8">
+    <div
+      class="container mx-auto lg:relative flex flex-col items-center\ lg:flex-row lg:justify-end gap-y-4 lg:gap-y-0 ">
+      <!-- logo Left Side -->
+      <div class="flex justify-center lg:justify-center w-fit">
+        <a href="#">
+          <img src="./assets/img/header/logo.png" alt="logo du site de flora architecte d'intérieur Toulon">
+        </a>
+      </div>
+      <div class="flex justify-center lg:justify-normal font-primary items-center">
+        <nav class=" hidden lg:flex lg:items-center lg:justify-center lg:px-[50px]">
+          <!-- List Nav -->
+          <ul class="flex gap-x-4 whitespace-nowrap">
+            <li>
+              <a href="#" class=" pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Qui
+                suis-je</a>
+            </li>
+            <li>
+              <a href="#"
+                class=" pr-4 text-secondary hover:text-accent  transition-all duration-300 uppercase">Prestations</a>
+            </li>
+            <li>
+              <a href="#"
+                class=" pr-4 text-secondary hover:text-accent  transition-all duration-300 uppercase">Réalisations</a>
+            </li>
+            <li>
+              <a href="#" class=" pr-4 text-secondary  hover:text-accent transition-all duration-300 uppercase">Avis &
+                actualité</a>
+            </li>
+            <li>
+              <a href="#"
+                class=" pr-4 text-secondary  hover:text-accent transition-all duration-300 uppercase">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="tel:+123456789"
+          class="flex justify-center items-center border-2 px-4 py-2 border-accent rounded-xl transition-all duration-300 text-accent hover:text-white hover:border-accent hover:bg-accent focus:outline-none">
+          <i class="ri-phone-fill text-2xl"></i>
+          <p class="lg:hidden ml-2">06 33 82 70 34</p>
+        </a>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+    <div class="container mx-auto h-full ">
+      <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+        <div class="hero__text xl:w-[48%] text-center xl:text-left">
+          <div
+            class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0">
+            <div class="uppercase text-base font-medium  tracking-[2.24px]">Flora Leiggarargue</div>
+          </div>
+          <h1 class="h1 mb-6">Architecte d'intérieur sur TOULON
+          </h1>
+          <p class="mb-[42px] md:max-w-xl text-left">Installée à Toulon, dans le Var, je mets à votre disposition mon
+            expertise en
+            tant qu'Architecte d'intérieur, Maître d'œuvre et Décoratrice, principalement sur le bassin toulonnais.
+            J'accompagne aussi bien les particuliers que les
+            professionnels.
+            <br>Je conçois avec vous des projets sur mesure, répondant à vos
+            attentes, de la conception 2D & 3D jusqu’à la réalisation, grâce à une prestation clé en main.
+          </p>
+          <button class="btn btn-lg btn-accent mx-auto xl:mx-0">Démarrer un projet</button>
+        </div>
+        <div class="hero__img hidden xl:flex max-w-[814px] self-end">
+          <img src="assets/img/hero/img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats section">
+    <div class="container mx-auto">
+      <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
+        <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+          <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+5120</div>
+          <div>Happy patients</div>
+        </div>
+        <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+          <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">26</div>
+          <div>Total Branches</div>
+        </div>
+        <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+          <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+53</div>
+          <div>Senior Doctors</div>
+        </div>
+        <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+          <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+10</div>
+          <div>Years Expeericnes</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <!-- bg description -->
+    <div
+      class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">
+      <div class="container mx-auto">
+        <div class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
+          <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 texte-center xl:text-left">Flor'A - votre intérieur se
+            révélera
+          </h2>
+          <p class="text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none">Diminutif de
+            FlorArchitecte, Flor'A est un cabinet où l'humain et l'environnement sont au cœur de chaque projet.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="container mx-auto mt-8 xl:-mt-[144px]">
+      <div class="grid xl:grid-cols-4 gap-5 px-8 xl:px-0">
+        <!-- bloque 1 -->
+        <div
+          class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+          <div class="mb-[15px]">
+            <img src="assets/icons/services/icon-1.svg" alt="">
+          </div>
+          <h3 class="h3 mb-[10px]">General Fractionners</h3>
+          <p class="font-light leading-normal max-w-[300px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.amet sajhs Consequuntur, maxime?
+          </p>
+        </div>
+        <!-- bloque 2 -->
+        <div
+          class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+          <div class="mb-[15px]">
+            <img src="assets/icons/services/icon-2.svg" alt="">
+          </div>
+          <h3 class="h3 mb-[10px]">General Fractionners</h3>
+          <p class="font-light leading-normal max-w-[300px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.amet sajhs Consequuntur, maxime?
+          </p>
+        </div>
+        <!-- bloque 3 -->
+        <div
+          class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+          <div class="mb-[15px]">
+            <img src="assets/icons/services/icon-3.svg" alt="">
+          </div>
+          <h3 class="h3 mb-[10px]">General Fractionners</h3>
+          <p class="font-light leading-normal max-w-[300px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.amet sajhs Consequuntur, maxime?
+          </p>
+        </div>
+        <!-- bloque 4 -->
+        <div
+          class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+          <div class="mb-[15px]">
+            <img src="assets/icons/services/icon-4.svg" alt="">
+          </div>
+          <h3 class="h3 mb-[10px]">General Fractionners</h3>
+          <p class="font-light leading-normal max-w-[300px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.amet sajhs Consequuntur, maxime?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SCRIPTS -->
+  <!-- swiper js -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <!-- scroll reveal -->
+  <script src="./js/scrolreveal.min.js"></script>
+  <!-- main -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
