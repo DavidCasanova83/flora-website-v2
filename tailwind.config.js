@@ -39,6 +39,7 @@ module.exports = {
         custom2: '0 0px 30px 0 rgba(8, 73, 81, 0.06)',
       },
       backgroundImage: { 
+        design: "url('./assets/img/design/bg-design.avif')",
         services: "url('./assets/img/services/bg.png')",
         testimonials: "url('./assets/img/testimonials/bg.png')",
         departments: "url('./assets/img/departments/bg.svg')",
