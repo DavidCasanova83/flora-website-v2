@@ -2,6 +2,27 @@
 @tailwind components; /* Charge les composants prédéfinis de Tailwind, comme les boutons ou les formulaires */
 @tailwind utilities; /* Charge les utilitaires de Tailwind, comme les classes de marges, tailles, etc. */
 
+/* Applique les styles généraux pour la nav mobile */
+.mnav {
+  @apply fixed left-[-100%] top-0 h-full w-full bg-white shadow-lg transition-all duration-700 ease-in-out;
+}
+
+.mnav--open {
+  @apply left-0;
+}
+
+.mnav__close-btn {
+  @apply fixed right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-br-lg transition-all duration-300;
+}
+
+.mnav__close-btn-icon {
+  @apply text-2xl text-black transition-transform duration-300;
+}
+
+.mnav--open .mnav__close-btn-icon {
+  @apply rotate-90; /* Fait pivoter l'icône lors de l'ouverture */
+}
+
 /* Applique les styles généraux pour le corps du document */
 body {
   @apply font-primary text-[17px] leading-8 text-secondary;
@@ -9,6 +30,10 @@ body {
   /* text-[17px] : Définit une taille de texte personnalisée de 17px */
   /* leading-8 : Applique un espacement vertical entre les lignes, utile pour la lisibilité */
   /* text-secondary : Utilise la couleur secondaire pour le texte, définie dans le thème Tailwind */
+}
+
+.test01 {
+  backdrop-filter: blur(15px);
 }
 
 /* Styles pour tous les titres de H1 à H6 */

@@ -24,6 +24,7 @@ module.exports = {
       colors: {
         'primary': '#242a2b',
         'secondary': '#808080',
+        'customBg': 'rgba(255, 255, 255, 0.1)',
         accent: {
           DEFAULT: '#e2bb9e',
           secondary: '#FFFFFF',
