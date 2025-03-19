@@ -21,50 +21,50 @@
 
 <body class="">
   <!-- header -->
-  <header class="p-8">
+  <header class="p-2">
     <div
-      class="container mx-auto lg:relative flex flex-col items-center\ lg:flex-row lg:justify-end gap-y-4 lg:gap-y-0 ">
-      <!-- logo Left Side -->
-      <div class="flex justify-center lg:justify-center w-fit">
+      class="container mx-auto lg:relative flex flex-col items-center lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+      <!-- Logo à gauche -->
+      <div class="flex justify-start w-fit">
         <a href="./index.html">
-          <img src="./assets/img/header/logo.png" alt="logo du site de flora architecte d'intérieur Toulon">
+          <img src="./assets/img/header/logo.png" alt="logo du site de flora architecte d'intérieur Toulon"
+            class="w-[200px] h-auto">
         </a>
       </div>
+      <!-- Menu à droite -->
       <div class="flex justify-center lg:justify-normal font-primary items-center">
-        <nav class=" hidden lg:flex lg:items-center lg:justify-center lg:px-[50px]">
+        <nav class="hidden lg:flex lg:items-center lg:justify-center lg:px-[50px]">
           <!-- List Nav -->
           <ul class="flex gap-x-4 whitespace-nowrap">
             <li>
               <a href="./about.html"
-                class=" pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Qui
-                suis-je</a>
+                class="pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Qui suis-je</a>
             </li>
             <li>
               <a href="./prestations.html"
-                class=" pr-4 text-secondary hover:text-accent  transition-all duration-300 uppercase">Prestations</a>
+                class="pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Prestations</a>
             </li>
             <li>
               <a href="./realisations.html"
-                class=" pr-4 text-secondary hover:text-accent  transition-all duration-300 uppercase">Réalisations</a>
+                class="pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Réalisations</a>
             </li>
             <li>
               <a href="./avis.html"
-                class=" pr-4 text-secondary  hover:text-accent transition-all duration-300 uppercase">Avis &
-                actualité</a>
+                class="pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Avis & actualité</a>
             </li>
             <li>
               <a href="./contact.html"
-                class=" pr-4 text-secondary  hover:text-accent transition-all duration-300 uppercase">Contact</a>
+                class="pr-4 text-secondary hover:text-accent transition-all duration-300 uppercase">Contact</a>
             </li>
           </ul>
         </nav>
         <!-- mobile nav -->
         <nav
           class="mnav fixed top-0 left-[-100%] w-64 h-full bg-white shadow-lg transition-all duration-300 ease-in-out z-30">
-          <!--  nav trigger -->
+          <!-- nav trigger -->
           <div
             class="mnav__close-btn w-8 h-8 fixed top-4 right-4 flex justify-center items-center rounded-br-lg cursor-pointer transition-all md:hidden">
-            <i class=" mnav__close-btn-icon ri-menu-line text-2xl text-black transition-transform duration-300"></i>
+            <i class="mnav__close-btn-icon ri-menu-line text-2xl text-black transition-transform duration-300"></i>
           </div>
           <div class="px-12 my-24 flex flex-col items-center text-center gap-y-12 h-full">
             <ul>
@@ -77,21 +77,17 @@
               <li><a href="realisations.html"
                   class="text-secondary hover:text-accent transition-all duration-300">Réalisations</a></li>
               <li><a href="avis.html" class="text-secondary hover:text-accent transition-all duration-300">Avis &
-                  actualité</a>
-              </li>
+                  actualité</a></li>
               <li><a href="contact.html"
                   class="text-secondary hover:text-accent transition-all duration-300">Contact</a></li>
             </ul>
           </div>
         </nav>
-
         <a href="tel:+123456789"
-          class="flex justify-center items-center border-2 px-4 py-2 border-accent rounded-xl transition-all duration-300 text-accent hover:text-white hover:border-accent hover:bg-accent focus:outline-none">
+          class="lg:hidden flex justify-center items-center border-2 px-4 py-2 border-accent rounded-xl transition-all duration-300 text-accent hover:text-white hover:border-accent hover:bg-accent focus:outline-none">
           <i class="ri-phone-fill text-2xl"></i>
-          <p class="lg:hidden ml-2">06 33 82 70 34</p>
         </a>
       </div>
-    </div>
     </div>
   </header>
   <!-- header end -->
